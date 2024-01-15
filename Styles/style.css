@@ -9,7 +9,12 @@ body{
     max-width: 1340px;
     margin: 0 auto;
 }
-
+.primary-p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
 
 
 /* ========Main Styles Starts========== */
@@ -76,4 +81,61 @@ nav
 {
     color: #FF5400;
     font-weight: 700;
+}
+/* ============================ */
+
+/* =====Banner Styles===== */
+.banner-section
+{
+    background: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 16px;
+}
+.banner-section h1
+{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.banner-section p
+{
+    padding-bottom: 50px;
+    color:#FFF
+}
+.banner-btn
+{
+    background-color: rgba(213, 213, 225, 0.4);
+    background-size: 50px;
+    width: auto;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.banner-btn .btn
+{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+}
+.banner-btn .color-btn 
+{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;;
+    color: #FFF;
 }
