@@ -1,0 +1,79 @@
+/* ========Shared Styles======= */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+
+
+
+/* ========Main Styles Starts========== */
+
+/* ==Title with logo== */
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.title-section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-section .logo
+{
+    width: 48px;
+    height: 46px;
+}
+.title-section .title
+{
+    padding-left: 20px;
+}
+.title-section .title h3
+{
+    color: #131318;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+}
+.title-section .title span
+{
+    color: #FF5400;
+}
+/* ======================== */
+
+/* ===Menu=== */
+.menu-section ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu-section ul li
+{
+    margin-left: 30px;
+    padding: 10px;  
+}
+.menu-section ul li a
+{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+}
+.menu-section ul li span
+{
+    color: #FF5400;
+    font-weight: 700;
+}
