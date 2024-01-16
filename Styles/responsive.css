@@ -9,16 +9,7 @@
         
     }
     .banner-btn{
-        background-size: 50px;
-        gap: 40px;
-        padding: 20px;
-        border-radius: 10px;
-        margin-bottom: 100px;
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-        height: 40px;
-        width: 50px;
+       
     }
     .banner-btn .btn {
         height: 100%;
@@ -28,5 +19,14 @@
     }
     .banner-section p{
         padding-bottom: 0;
+    }
+    .tour-section{
+        flex-direction: column;
+    }
+    .tour-text{
+        padding: 5px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
